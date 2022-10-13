@@ -7,101 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>朝闻雨季</title>
     <script src="https://kit.fontawesome.com/50a0712864.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: dimgray;
-            position: relative;
-        }
-
-        .pagemain {
-            padding: 60px;
-            background-color: white;
-            position: absolute;
-            left: 200px;
-        }
-
-        .btn-container {
-            position: fixed;
-            left: -75px;
-            top: -75px;
-        }
-
-        .btn-move {
-            position: relative;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-color: #2396ef;
-
-        }
-
-        .white {
-            color: white;
-            position: absolute;
-            left: 60%;
-            top: 60%;
-            font-size: 30px;
-            cursor: pointer;
-        }
-
-        .white:hover {
-            font-size: 32px;
-        }
-
-        .artcle {
-            color: rgb(96, 96, 96);
-        }
-
-        .artcle>h1 {
-            color: #2396ef;
-            font-size: 26px;
-        }
-
-        .artcle p {
-            line-height: 34px;
-            text-indent: 2em;
-            margin-bottom: 13px;
-        }
-
-        .artcle img {
-            border-radius: 20px;
-        }
-
-        .navlist {
-            position: absolute;
-            top: 70vh;
-        }
-
-        .navlist li {
-            list-style: none;
-        }
-
-        .navlist a {
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-
-        }
-        li:last-child{
-            margin-left: 50px;
-        }
-        .li-one {
-            margin-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="./03.css">
 </head>
 
 <body>
-    <!-- <div class="pagemain">
+    <div class="pagemain">
         <div class="btn-container">
             <div class="btn-move">
-                <i class="white fa-solid fa-bars"></i>
-                <i class=" white fa-solid fa-xmark"></i>
+                <i id="open" class="white fa-solid fa-bars"></i>
+                <i id="close" class=" white  hidden fa-solid fa-xmark"></i>
             </div>
         </div>
         <div class="artcle">
@@ -119,7 +33,7 @@
             </p>
             <p>朝雨之事，使吾有所得。吾知天非无情，无情于己欤。吾亦知须爱书，爱书必读之，使吾之观开也。故作文以抒怀，九月四日记。</p>
         </div>
-    </div> -->
+    </div>
     <nav class="navlist">
         <ul>
             <li class="li-one">
@@ -144,5 +58,5 @@
         </ul>
     </nav>
 </body>
-
+<script src="./03.js"></script>
 </html>
