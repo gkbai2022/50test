@@ -8,68 +8,6 @@
     <title>搜索框</title>
     <script src="https://kit.fontawesome.com/50a0712864.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./04.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            height: 100vh;
-            background-color: #2396ef;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            position: relative;
-            height: 45px;
-        }
-
-        .words {
-            width: 45px;
-            height: 45px;
-            border: none;
-            outline: none;
-            font-size: 14px;
-            letter-spacing: 2px;
-            padding: 15px;
-            border-radius: 10px;
-            
-        }
-        .container.active .words{
-            width: 240px;
-            border-bottom-left-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 0px;
-            border-top-right-radius: 0px;
-        }
-        .btn {
-            position: absolute;
-            left: 0;
-            height: 45px;
-            width: 45px;
-            border: 0;
-            border-radius: 10px;
-            
-            font-size: 20px;
-            background-color: white;
-
-        }
-        .container.active .btn{
-            left: 240px;
-            border-bottom-right-radius: 10px;
-            border-top-right-radius: 10px;
-            border-bottom-left-radius: 0px;
-            border-top-left-radius: 0px;
-        }
-
-        .btn i:hover {
-            font-size: 23px;
-        }
-    </style>
 </head>
 
 <body>
